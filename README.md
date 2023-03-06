@@ -38,6 +38,7 @@ You can make an executable file and save it in `C:\Users\~\AppData\Roaming\Micro
 ```
 pip install pyinstaller
 pyinstaller -F -w -i icon.ico main.py
+pyinstaller -F -w -i icon.ico main.py --upx-dir D:\Apps\tools\
 ```
 Use an icon file in working directory before running pyinstaller
 
